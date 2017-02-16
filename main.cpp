@@ -29,7 +29,10 @@ int main()
 
         cout << "Hours worked by employee #" << (index + 1) << ": ";
         cin >> tempHours;
-        hours.push_back(tempRate);
+        hours.push_back(tempHours);
+        cout << "Hourly pay rate for employee #" << (index + 1) << ": ";
+        cin >> tempRate;
+        payRate.push_back(tempRate);
     }
 
     // Display each employee's gross pay
